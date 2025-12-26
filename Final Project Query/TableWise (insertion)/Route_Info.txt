@@ -1,0 +1,15 @@
+insert into Route_info values(7771,'Dhaka-Rajshahi');
+
+insert into Route_info values(7772,'Rajshahi-Dhaka');
+
+insert into Route_info values(5551,'Dhaka-Dinajpur');
+
+insert into Route_info values(5552,'Dinajpur-Dhaka');
+
+insert into Route_info values(4361,'Dhaka-Chattagram');
+
+insert into Route_info values(4362,'Chattagram-Dhaka');
+
+insert into Route_info values(4321,'Dhaka-Khulna');
+
+insert into Route_info values(4322,'Khulna-Dhaka');

@@ -1,0 +1,5 @@
+insert into Passenger_details values('sadid@gmail.com','Md. Sadid',24158565,'81832455','Blue',10000,01625329865);
+
+insert into Passenger_details values('saifulislamoni06@gmail.com','Md. Oni',415845649,'208260','Green',10000,01794272292);
+
+insert into Passenger_details values('zohurulsazzad@gmail.com','Md. Sazzad',634564654,'555999','Black',10000,01750030406);

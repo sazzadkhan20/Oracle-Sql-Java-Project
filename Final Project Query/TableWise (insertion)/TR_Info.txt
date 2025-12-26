@@ -1,0 +1,19 @@
+insert into TR_Info values(1001,7771); 
+
+insert into TR_Info values(1002,7772); 
+
+insert into TR_Info values(1002,5551);
+
+insert into TR_Info values(1002,5552); 
+
+insert into TR_Info values(1003,4361); 
+
+insert into TR_Info values(1003,4362); 
+
+insert into TR_Info values(1004,4321); 
+
+insert into TR_Info values(1004,4322);
+
+insert into TR_Info values(1005,7771);
+
+insert into TR_Info values(1005,7772);

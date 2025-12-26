@@ -1,0 +1,5 @@
+1. select tr.t_id,t.t_name,tr.r_id,r.r_info,amt.price
+from train_info t,route_info r,tr_info tr,admin_manage_ticket amt
+where t.t_id=tr.t_id and r.r_id=tr.r_id and tr.r_id=amt.r_no
+order by t_id;//display all train information with route and ticket price information
+

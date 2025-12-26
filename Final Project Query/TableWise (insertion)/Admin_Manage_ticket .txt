@@ -1,0 +1,15 @@
+insert into Admin_Manage_ticket values(7771,657,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(7772,657,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(5551,841,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(5552,841,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(4361,563.08,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(4362,563.08,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(4321,969,'admin@gmail.com');
+
+insert into Admin_Manage_ticket values(4322,969,'admin@gmail.com');

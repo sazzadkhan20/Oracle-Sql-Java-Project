@@ -1,0 +1,10 @@
+insert into Admin_Operate_train values(1001,'SilkCity Express','admin@gmail.com');
+
+insert into Admin_Operate_train values(1002,'Ekota Express','admin@gmail.com');
+
+insert into Admin_Operate_train values(1003,'Sonar Bangla Express','admin@gmail.com');
+
+insert into Admin_Operate_train values(1004,'Nill Sagar Express','admin@gmail.com');
+
+insert into Admin_Operate_train values(1005,'Banalota Express','admin@gmail.com');
+

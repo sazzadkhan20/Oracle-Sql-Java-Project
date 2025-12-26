@@ -1,0 +1,36 @@
+ create user BANGLADESHRAILWAY identified by BANGLADESHRAILWAY;
+grant connect, resource, unlimited tablespace to BANGLADESHRAILWAY;
+ALTER USER BANGLADESHRAILWAY DEFAULT TABLESPACE USERS;
+ALTER USER BANGLADESHRAILWAY TEMPORARY TABLESPACE TEMP;
+
+
+
+
+1. create table Admin_Info(A_Email varchar2(32) primary key, A_Password varchar(32));
+
+
+2. create table Admin_Operate_Train(T_ID number(12) primary key, T_Name varchar2(32),A_Email varchar2(32), foreign key (A_Email) references Admin_Info(A_Email));
+
+
+3.create table Train_Info(T_ID number(10) primary key, T_Name varchar2(35) Not Null); 
+
+
+4.create table Route_Info(R_ID number(10) primary key, R_Info varchar2(35) Not Null);
+
+
+5.create table TR_Info(T_ID number(12), R_ID number(12),primary key (T_ID,R_ID),foreign key (T_ID) references Train_Info(T_ID),foreign key (R_ID) references Route_Info(R_ID));
+
+
+6.create table Admin_Manage_Ticket(R_No number(10), price float, A_Email varchar2(32), foreign key (A_Email) references Admin_Info(A_Email));
+
+
+7.create table Ticket_Info(R_No number(12) Not Null, Ticket_ID number(12) primary key, Price float, Issue_Date varchar2(32),P_Email varchar2(32),
+foreign key (P_Email) references Passenger_Details(P_Email));
+
+
+8.create table Passenger_Details(P_Email varchar2(32) primary key, P_Name varchar2(30) Not Null,P_NID number(15) Not Null,P_Password varchar2(30) Not Null,
+Security_Question varchar2(50), Balance  float, Phone number(12));
+
+
+9. create table Ticket_History (Ticket_ID number(15) primary key, T_Name varchar2(32), Departure_sattion varchar2(32), Arrival_station varchar2(32),
+Issue_time varchar2(32), Price float, P_Email varchar(32), foreign key (P_Email) references Passenger_Details(P_Email));

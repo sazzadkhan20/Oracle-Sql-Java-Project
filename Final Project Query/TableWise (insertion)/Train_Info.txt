@@ -1,0 +1,9 @@
+insert into Train_info values(1001,'SilkCity Express');
+
+insert into Train_info values(1002,'Ekota Express');
+
+insert into Train_info values(1003,'Sonar Bangla Express');
+
+insert into Train_info values(1004,'Nill Sagar Express');
+
+insert into Train_info values(1005,'Banalota Express');

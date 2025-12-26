@@ -1,0 +1,1 @@
+insert into Admin_info values('admin@gmail.com','admin12345');
