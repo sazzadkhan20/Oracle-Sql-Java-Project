@@ -183,9 +183,10 @@ System includes sample data for:
 
 ---
 
-**Project Type:** Academic Database Management System Project  
-**Institution:** American International University-Bangladesh  
-**Course:** Database Management System
+**Project Type**: <small>Academic DBMS Project</small>  
+**Institution**: <small>American International University-Bangladesh</small>  
+**Course**: <small>Database Management System</small>
+
 ---
 
 **Note**: This is an academic project focused on database design and SQL implementation using Oracle 10g. Primary emphasis is on backend database operations rather than frontend design.
